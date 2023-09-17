@@ -19,13 +19,7 @@ namespace DisasterFoundationWebApp.Data
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-
-            // Configure any additional relationships or constraints here
-            // For example, you can define foreign keys and unique constraints.
-        }
+      
     }
 
 }

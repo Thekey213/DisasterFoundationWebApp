@@ -1,5 +1,9 @@
-﻿@model RegisterViewModel
+﻿@model DisasterFoundationWebApp.Models.ViewModel.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
 
+<h1>@ViewData["Title"]</h1>
 <h2>Register</h2>
 <div asp-validation-summary="All" class="text-danger"></div>
 <form asp-controller="Account" asp-action="Register" method="post">
